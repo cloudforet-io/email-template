@@ -90,7 +90,7 @@ done
 ## Create ConfigMap
 
 ```
-kubectl apply configmap -f email-template.yaml
+kubectl apply configmap -f email-template.yaml -n cloudforet
 ```
 
 The email-template directory in identity POD: 
